@@ -52,3 +52,4 @@ if __name__ == '__main__':
     x = torch.rand([1, 3, 224, 224])
     model = MyAlexNet()
     y = model(x)
+    print(y)
